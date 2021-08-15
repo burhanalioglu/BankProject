@@ -29,4 +29,25 @@ public class PayBillsPage extends BasePage {
     @FindBy(id = "pc_calculate_costs")
     public WebElement calculateCostsButton;
 
+    @FindBy(id = "sp_payee")
+    public WebElement payeeDropdown;
+
+    @FindBy(id = "sp_account")
+    public WebElement accountDropdown;
+
+    @FindBy(id = "sp_amount")
+    public WebElement amount;
+
+    @FindBy(id = "sp_date")
+    public WebElement date;
+
+    @FindBy(id = "sp_description")
+    public WebElement description;
+
+    @FindBy(id = "pay_saved_payees")
+    public WebElement payButton;
+
+    @FindBy (id = "alert_content")
+    public WebElement paymentSubmissionMessage;
+
 }

@@ -1,6 +1,6 @@
 Feature: Account Activity
 
-  @wip
+
   Scenario: Page should have Zero –Account activity title
     Given User logged in
     When User navigates to "Account Activity"
